@@ -1,0 +1,19 @@
+body,div,h1,h2,h3,ul,li{margin: 0;padding: 0;}
+ul{list-style: none;}
+html,body{height: 100%;}
+.wrap{position: relative; z-index: 10;background-color: #fff;}
+.header{position: relative; z-index: 30}
+.body-container{position: relative;z-index: 20}
+.footer{position: relative;z-index: 10}
+/*header*/
+.logo{max-width:300px;margin:0 auto;}
+.logo img{width: 100%;}
+#menu{position: absolute;top: 10px;left: 10px;}
+
+/**/
+.poster img{width: 100%;}
+
+/**/
+#drawer{background-color: #fff;width:320px;min-width: 320px;height: 100%;position: absolute;top: 0;left: 0px;z-index: 5}
+#drawer h1{text-align: center;}
+#drawer .d-container{padding: 1em;}
